@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-amd",
-  "version": "3.0.7",
+  "version": "3.0.8",
   "description": "Ember CLI Addon that can load AMD modules.",
   "scripts": {
     "build": "ember build --environment=production",
@@ -16,8 +16,7 @@
     "cheerio": "^1.0.0-rc.3",
     "ember-cli-babel": "^7.18.0",
     "ember-cli-htmlbars": "^4.2.2",
-    "espree": "^6.2.1",
-    "esprima-walk": "^0.1.0",
+    "replace-require-and-define": "^0.1.0",
     "js-beautify": "^1.10.3",
     "lodash": "^4.17.15"
   },
