@@ -15,7 +15,7 @@
     "cheerio": "^1.0.0-rc.2",
     "ember-cli-babel": "^7.1.2",
     "espree": "6.1.2",
-    "esprima-walk": "^0.1.0",
+    "esprima-walk": "git+ssh://git@github.com:frankLife/esprima-walk.git",
     "js-beautify": "^1.9.0",
     "lodash": "^4.17.11"
   },
