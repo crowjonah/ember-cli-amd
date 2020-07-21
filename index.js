@@ -77,7 +77,7 @@ module.exports = {
     // When ember build --watch or ember serve are used, this function will be called over and over
     // as a user updates code.
 
-    // We can only rebbuild the index after ALL the cli addons have ran. 
+    // We can only rebbuild the index after ALL the cli addons have ran.
     // We cannot bbuild it during the postPrecessTree!
     convertIndexToAmd(this.app, result.directory, this.externalAmdModules);
   }
