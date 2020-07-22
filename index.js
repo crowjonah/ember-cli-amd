@@ -25,6 +25,7 @@ module.exports = {
   externalAmdModules: new Set(),
 
   included(app) {
+    this._super.included.apply(this, arguments);
     // Note: this function is only called once even if using ember build --watch or ember serve
 
     // This is the entry point for this addon. We will collect the amd definitions from the ember-cli-build.js and
